@@ -21,7 +21,10 @@ library(kableExtra)
 library(janitor)
 
 # Load Data
-soccer_wages <- read.csv("SalaryPrediction.csv")
+# NOTE: The dataset is stored in the repository as
+# 'Soccer Wages Top 6 European Leagues.csv'. The previous
+# file name caused an error when the script was executed.
+soccer_wages <- read.csv("Soccer Wages Top 6 European Leagues.csv")
 
 # Inspect Data
 dim(soccer_wages) # check number of rows and columns
